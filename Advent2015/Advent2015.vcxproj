@@ -141,12 +141,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <Text Include="Day_02.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
     <Text Include="Day_03.txt" />
     <Text Include="ReadMe.txt" />
-    <Text Include="Resources\Day_02.txt">
-      <DeploymentContent>true</DeploymentContent>
-      <FileType>Text</FileType>
-    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Day.h" />

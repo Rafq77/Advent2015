@@ -68,7 +68,7 @@ namespace Day_02 {
 		Box ParseString(std::string _word);
 		void ReadFile();
 	public:
-		Day_02(std::string _filename);
+		Day_02();
 		~Day_02();
 
 		// Inherited via Day

@@ -65,6 +65,6 @@ namespace Day_03 {
 	}
 
 	void Day_03::PrintOutput() {
-		std::cout << " Gifted Kids are= " << visitedHouses.size() << std::endl;
+		std::cout << "Gifted Kids are= " << visitedHouses.size() << std::endl;
 	}
 }

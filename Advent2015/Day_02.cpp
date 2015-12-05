@@ -2,8 +2,7 @@
 #include "Day_02.h"
 
 
-Day_02::Day_02::Day_02(std::string _filename) :
-	filename(_filename),
+Day_02::Day_02::Day_02() :
 	presents(),
 	presentsRaw() {
 }
@@ -36,7 +35,8 @@ void Day_02::Day_02::PrintOutput() {
 void Day_02::Day_02::ReadFile() {
 	std::ifstream input;
 	std::string word;
-	input.open(filename, std::ifstream::in);
+
+	input.open("Day_02.txt", std::ifstream::in);
 	if (false == input.is_open()) {
 		std::cout << "Can't open file: " << filename << std::endl;
 		return;

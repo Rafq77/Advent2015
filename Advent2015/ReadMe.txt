@@ -9,7 +9,6 @@ Other notes:
 
 	Will be updated continously.
 
-	
 
 Merry Christmas!
 

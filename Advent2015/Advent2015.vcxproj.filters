@@ -12,13 +12,19 @@
     <Filter Include="Resources">
       <UniqueIdentifier>{dcd919ac-c982-491c-b277-fede3644045a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Days">
+      <UniqueIdentifier>{22c01a18-0718-45f8-8351-972271a8bdbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Days">
+      <UniqueIdentifier>{5cbf7bf3-290f-4e6d-a311-9a4e4a15b353}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
-    <Text Include="Resources\Day_02.txt">
+    <Text Include="Day_03.txt">
       <Filter>Resources</Filter>
     </Text>
-    <Text Include="Day_03.txt">
+    <Text Include="Day_02.txt">
       <Filter>Resources</Filter>
     </Text>
   </ItemGroup>
@@ -29,20 +35,20 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Day_01.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Day.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Day_02.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Day.h">
+      <Filter>Header Files\Days</Filter>
+    </ClInclude>
+    <ClInclude Include="Day_01.h">
+      <Filter>Header Files\Days</Filter>
+    </ClInclude>
+    <ClInclude Include="Day_02.h">
+      <Filter>Header Files\Days</Filter>
+    </ClInclude>
     <ClInclude Include="Day_03.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Days</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -53,16 +59,16 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Day_01.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Day.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Days</Filter>
     </ClCompile>
     <ClCompile Include="Day_02.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Days</Filter>
     </ClCompile>
     <ClCompile Include="Day_03.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Days</Filter>
+    </ClCompile>
+    <ClCompile Include="Day.cpp">
+      <Filter>Source Files\Days</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
