@@ -18,6 +18,12 @@
     <Filter Include="Header Files\Days">
       <UniqueIdentifier>{5cbf7bf3-290f-4e6d-a311-9a4e4a15b353}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{e86593ee-ced9-4435-92cb-6b98f47f2336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{f0020bd3-2bb0-403f-a239-21522dbbd1b1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -50,6 +56,12 @@
     <ClInclude Include="Day_03.h">
       <Filter>Header Files\Days</Filter>
     </ClInclude>
+    <ClInclude Include="Day_04.h">
+      <Filter>Header Files\Days</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -69,6 +81,12 @@
     </ClCompile>
     <ClCompile Include="Day.cpp">
       <Filter>Source Files\Days</Filter>
+    </ClCompile>
+    <ClCompile Include="Day_04.cpp">
+      <Filter>Source Files\Days</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>Source Files\Utils</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

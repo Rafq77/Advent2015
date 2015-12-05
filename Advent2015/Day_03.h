@@ -1,8 +1,5 @@
 #pragma once
 #include "Day.h"
-#include <string>
-#include <iostream>
-#include <fstream>
 #include <map>
 
 namespace Day_03 {

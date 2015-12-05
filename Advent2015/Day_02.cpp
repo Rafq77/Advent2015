@@ -29,7 +29,7 @@ void Day_02::Day_02::DoMagic() {
 }
 
 void Day_02::Day_02::PrintOutput() {
-	std::cout << "Total is total = " << totalWrapping << " Ribbon= " << totalRibbon << std::endl;
+	std::cout << "02. Total is total = " << totalWrapping << " Ribbon= " << totalRibbon << std::endl;
 }
 
 void Day_02::Day_02::ReadFile() {

@@ -1,3 +1,7 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+
 #pragma once
 class Day {
 public:

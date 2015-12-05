@@ -8,6 +8,7 @@
 #include "Day_01.h"
 #include "Day_02.h"
 #include "Day_03.h"
+#include "Day_04.h"
 
 
 int main()
@@ -23,5 +24,9 @@ int main()
 	Day_03::Day_03 day03;
 	day03.DoMagic();
 	day03.PrintOutput();
+
+	Day_04::Day_04 day04;
+	day04.DoMagic();
+	day04.PrintOutput();
 }
 

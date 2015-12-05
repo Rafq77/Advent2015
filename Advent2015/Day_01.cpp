@@ -30,5 +30,5 @@ void Day_01::Day_01::DoMagic() {
 }
 
 void Day_01::Day_01::PrintOutput() {
-	std::cout << "First time in basement at " << this->firstTimeInBasement << "; Final floor: " << this->finalFloor << std::endl;
+	std::cout << "01. First time in basement at " << this->firstTimeInBasement << "; Final floor: " << this->finalFloor << std::endl;
 }

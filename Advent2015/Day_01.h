@@ -1,5 +1,3 @@
-#include <string>
-#include <iostream>
 #include "Day.h"
 
 namespace Day_01 {
