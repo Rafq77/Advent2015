@@ -27,78 +27,87 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
-    <Text Include="Day_03.txt">
+    <Text Include="Resources\Day_06.txt">
       <Filter>Resources</Filter>
     </Text>
-    <Text Include="Day_02.txt">
+    <Text Include="Resources\Day_05.txt">
       <Filter>Resources</Filter>
     </Text>
-    <Text Include="Day_05.txt">
+    <Text Include="Resources\Day_03.txt">
+      <Filter>Resources</Filter>
+    </Text>
+    <Text Include="Resources\Day_02.txt">
       <Filter>Resources</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Day.h">
+    <ClInclude Include="Day\Day.h">
       <Filter>Header Files\Days</Filter>
     </ClInclude>
-    <ClInclude Include="Day_01.h">
+    <ClInclude Include="Day\Day_01.h">
       <Filter>Header Files\Days</Filter>
     </ClInclude>
-    <ClInclude Include="Day_02.h">
+    <ClInclude Include="Day\Day_02.h">
       <Filter>Header Files\Days</Filter>
     </ClInclude>
-    <ClInclude Include="Day_03.h">
+    <ClInclude Include="Day\Day_03.h">
       <Filter>Header Files\Days</Filter>
     </ClInclude>
-    <ClInclude Include="Day_04.h">
+    <ClInclude Include="Day\Day_04.h">
       <Filter>Header Files\Days</Filter>
     </ClInclude>
-    <ClInclude Include="md5.h">
+    <ClInclude Include="Day\Day_05.h">
+      <Filter>Header Files\Days</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\md5.h">
       <Filter>Header Files\Utils</Filter>
     </ClInclude>
-    <ClInclude Include="Day_05.h">
-      <Filter>Header Files\Days</Filter>
+    <ClInclude Include="Day\Day_06.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Std\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Std\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Std\targetver.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Advent2015.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day_01.cpp">
+    <ClCompile Include="Day\Day.cpp">
       <Filter>Source Files\Days</Filter>
     </ClCompile>
-    <ClCompile Include="Day_02.cpp">
+    <ClCompile Include="Day\Day_01.cpp">
       <Filter>Source Files\Days</Filter>
     </ClCompile>
-    <ClCompile Include="Day_03.cpp">
+    <ClCompile Include="Day\Day_02.cpp">
       <Filter>Source Files\Days</Filter>
     </ClCompile>
-    <ClCompile Include="Day.cpp">
+    <ClCompile Include="Day\Day_03.cpp">
       <Filter>Source Files\Days</Filter>
     </ClCompile>
-    <ClCompile Include="Day_04.cpp">
+    <ClCompile Include="Day\Day_04.cpp">
       <Filter>Source Files\Days</Filter>
     </ClCompile>
-    <ClCompile Include="md5.cpp">
+    <ClCompile Include="Day\Day_05.cpp">
+      <Filter>Source Files\Days</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\md5.cpp">
       <Filter>Source Files\Utils</Filter>
     </ClCompile>
-    <ClCompile Include="Day_05.cpp">
-      <Filter>Source Files\Days</Filter>
+    <ClCompile Include="Day\Day_06.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Std\stdafx.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Advent2015.rc" />
+    <ResourceCompile Include="Std\Advent2015.rc" />
   </ItemGroup>
 </Project>

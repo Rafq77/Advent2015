@@ -15,7 +15,7 @@ namespace Day_05 {
 
 	void Day_05::DoMagic() {
 
-		input.open("Day_05.txt", std::ifstream::in);
+		input.open("Resources/Day_05.txt", std::ifstream::in);
 
 		if (input.is_open()) {
 			std::string word;

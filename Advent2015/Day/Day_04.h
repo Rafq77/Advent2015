@@ -1,6 +1,6 @@
 #pragma once
 #include "Day.h"
-#include "md5.h"
+#include "../Utils/md5.h"
 
 namespace Day_04 {
 	class Day_04 : public Day {

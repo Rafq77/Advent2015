@@ -16,7 +16,7 @@ namespace Day_03 {
 	}
 
 	void Day_03::DoMagic() {
-		input.open("Day_03.txt", std::ifstream::in);
+		input.open("Resources/Day_03.txt", std::ifstream::in);
 
 		if (input.is_open()) {
 			input >> steps;
