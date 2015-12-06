@@ -87,6 +87,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -145,6 +146,9 @@
       <DeploymentContent>true</DeploymentContent>
     </Text>
     <Text Include="Day_03.txt" />
+    <Text Include="Day_05.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -153,6 +157,7 @@
     <ClInclude Include="Day_02.h" />
     <ClInclude Include="Day_03.h" />
     <ClInclude Include="Day_04.h" />
+    <ClInclude Include="Day_05.h" />
     <ClInclude Include="md5.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="stdafx.h" />
@@ -165,6 +170,7 @@
     <ClCompile Include="Day_02.cpp" />
     <ClCompile Include="Day_03.cpp" />
     <ClCompile Include="Day_04.cpp" />
+    <ClCompile Include="Day_05.cpp" />
     <ClCompile Include="md5.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

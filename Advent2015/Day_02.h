@@ -56,7 +56,7 @@ namespace Day_02 {
 
 	class Day_02 : public Day {
 	private:
-		std::string filename;
+		std::string input;
 		std::vector<Box> presents;
 		std::vector<std::string> presentsRaw;
 		long totalWrapping;

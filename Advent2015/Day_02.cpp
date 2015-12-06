@@ -38,7 +38,7 @@ void Day_02::Day_02::ReadFile() {
 
 	input.open("Day_02.txt", std::ifstream::in);
 	if (false == input.is_open()) {
-		std::cout << "Can't open file: " << filename << std::endl;
+		std::cout << "Can't open file: " << "Day_02" << std::endl;
 		return;
 	}
 
