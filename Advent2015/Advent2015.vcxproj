@@ -94,7 +94,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy /C /H /D /Y "$(ProjectDir)Resources\*.txt" "$(OutDir)"</Command>
+      <Command>xcopy /C /H /D /Y "$(ProjectDir)Resources\*.txt" "$(OutDir)"
+lib /NOLOGO /OUT:"$(ProjectDir)Debug\$(ProjectName).lib" "$(ProjectDir)$(Configuration)\*.obj"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
