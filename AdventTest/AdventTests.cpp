@@ -24,6 +24,16 @@ public:
 		Assert::IsFalse(t2.IsNice());
 		Assert::IsFalse(t3.IsNice());
 		Assert::IsFalse(t4.IsNice());
+
+		Day_05::Word a0("qjhvhtzxzqqjkmpb");		// nice
+		Day_05::Word a1("xxyxx");					// nice
+		Day_05::Word a2("uurcxstgmygtbstg");	// naughty
+		Day_05::Word a3("ieodomkazucvgmuy");	// naughty
+
+		Assert::IsTrue(a0.IsNiceAnother());
+		Assert::IsTrue(a1.IsNiceAnother());
+		Assert::IsFalse(a2.IsNiceAnother());
+		Assert::IsFalse(a3.IsNiceAnother());
 	}
 
 	};
