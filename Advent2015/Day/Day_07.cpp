@@ -224,7 +224,7 @@ namespace Day_07 {
 			}
 
 			if (raw.substr(0, 5) == "1 AND") {
-				//operand1 = 0xFFFF;
+				operand1 = 0xFFFF;
 				--missingOperands;
 			}
 
