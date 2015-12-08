@@ -11,6 +11,7 @@
 #include "Day/Day_04.h"
 #include "Day/Day_05.h"
 #include "Day/Day_06.h"
+#include "Day/Day_07.h"
 
 int main()
 {
@@ -39,4 +40,8 @@ int main()
 	Day_06::Day_06 day06;
 	day06.DoMagic();
 	day06.PrintOutput();
+
+	Day_07::Day_07 day07;
+	day07.DoMagic();
+	day07.PrintOutput();
 }

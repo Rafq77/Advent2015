@@ -39,6 +39,8 @@
     <Text Include="Resources\Day_02.txt">
       <Filter>Resources</Filter>
     </Text>
+    <Text Include="Resources\Day_07.txt" />
+    <Text Include="Resources\Day_08.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Day\Day.h">
@@ -74,6 +76,9 @@
     <ClInclude Include="Std\targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Day\Day_07.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Advent2015.cpp">
@@ -104,6 +109,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Std\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day\Day_07.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Split.h">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
