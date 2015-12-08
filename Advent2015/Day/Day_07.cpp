@@ -58,7 +58,7 @@ namespace Day_07 {
 					// second loop
 					for (auto &j : gates) {
 						// find those "not ready" with missing operands
-						if (false == j->ready) {
+						if (false == j->ready && j->missingOperands != 0) {
 							j->Update(i.get());
 						}
 					}
@@ -86,6 +86,7 @@ namespace Day_07 {
 
 			output = operand1 & operand2;
 			processed = true;
+			ready = false;
 		}
 	}
 	void GateOR::process() {
@@ -95,6 +96,7 @@ namespace Day_07 {
 
 			output = operand1 | operand2;
 			processed = true;
+			ready = false;
 		}
 	}
 	void GateLSHIFT::process() {
@@ -104,6 +106,7 @@ namespace Day_07 {
 
 			output = operand1 << operand2;
 			processed = true;
+			ready = false;
 		}
 	}
 	void GateRSHIFT::process() {
@@ -113,6 +116,7 @@ namespace Day_07 {
 
 			output = operand1 >> operand2;
 			processed = true;
+			ready = false;
 		}
 	}
 	void GateNOT::process() {
@@ -122,6 +126,7 @@ namespace Day_07 {
 
 			output = ~operand1;
 			processed = true;
+			ready = false;
 		}
 	}
 	void GateINPUT::process() {
@@ -131,6 +136,7 @@ namespace Day_07 {
 
 			output = operand1;
 			processed = true;
+			ready = false;
 		}
 	}
 
@@ -218,7 +224,7 @@ namespace Day_07 {
 			}
 
 			if (raw.substr(0, 5) == "1 AND") {
-				operand1 = 0xFFFF;
+				//operand1 = 0xFFFF;
 				--missingOperands;
 			}
 
