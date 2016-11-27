@@ -37,7 +37,10 @@ namespace Day_07 {
 	}
 
 	void Day_07::PrintOutput() {
-		std::cout << "07. Output is " << output << std::endl;
+
+		int count = std::count_if(gates.begin(), gates.end(), [&](std::unique_ptr<IGate>& g) { return g->processCount != 1; });
+
+		std::cout << "07. Output is " << output << " Gates that have been processed multiple times " << count << std::endl;
 	}
 
 	void Day_07::DoTheMagic() {
@@ -68,7 +71,8 @@ namespace Day_07 {
 			processed = std::count_if(gates.begin(), gates.end(),
 				[](std::unique_ptr<IGate>& gate) { return gate->processed; });
 
-			std::cout << "\t" << processed << std::endl;
+			// Debug output:
+			//std::cout << "\t" << processed << std::endl;
 		}
 		
 
@@ -87,6 +91,10 @@ namespace Day_07 {
 			output = operand1 & operand2;
 			processed = true;
 			ready = false;
+
+			// Debug
+			++processCount;
+			std::cout << "\t" << operand1 << " & " << operand2 << " -> " << output << std::endl;
 		}
 	}
 	void GateOR::process() {
@@ -97,6 +105,10 @@ namespace Day_07 {
 			output = operand1 | operand2;
 			processed = true;
 			ready = false;
+
+			// Debug
+			++processCount;
+			std::cout << "\t" << operand1 << " | " << operand2 << " -> " << output << std::endl;
 		}
 	}
 	void GateLSHIFT::process() {
@@ -107,6 +119,10 @@ namespace Day_07 {
 			output = operand1 << operand2;
 			processed = true;
 			ready = false;
+
+			// Debug
+			++processCount;
+			std::cout << "\t" << operand1 << " << " << operand2 << " -> " << output << std::endl;
 		}
 	}
 	void GateRSHIFT::process() {
@@ -117,6 +133,10 @@ namespace Day_07 {
 			output = operand1 >> operand2;
 			processed = true;
 			ready = false;
+
+			// Debug
+			++processCount;
+			std::cout << "\t" << operand1 << " >> " << operand2 << " -> " << output << std::endl;
 		}
 	}
 	void GateNOT::process() {
@@ -127,6 +147,10 @@ namespace Day_07 {
 			output = ~operand1;
 			processed = true;
 			ready = false;
+
+			// Debug
+			++processCount;
+			std::cout << "\t" << " ~" << operand1 << " -> " << output << std::endl;
 		}
 	}
 	void GateINPUT::process() {
@@ -137,6 +161,10 @@ namespace Day_07 {
 			output = operand1;
 			processed = true;
 			ready = false;
+
+			// Debug
+			++processCount;
+			std::cout << "\t" << operand1 << " -> " << output << std::endl;
 		}
 	}
 
@@ -175,6 +203,7 @@ namespace Day_07 {
 		operand2(0),
 		output(0),
 		missingOperands(0xFF),
+		processCount(0),
 		ready(false),
 		processed(false),
 		raw(_raw) {

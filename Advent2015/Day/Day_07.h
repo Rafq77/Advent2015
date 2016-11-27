@@ -23,6 +23,7 @@ namespace Day_07 {
 		std::string operandName1, operandName2;
 		unsigned short operand1, operand2, output;
 		unsigned char missingOperands;
+		int processCount;
 
 		inline IGate(const IGate & other) {};
 		inline IGate & operator=(const IGate & other) { return *this; };
