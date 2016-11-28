@@ -69,6 +69,7 @@ class Gate:
             self.done = True
             if (self.keyword == "AND"):
                 self.output = self.input[0] & self.input[1]
+                print(self.fn)
                 print(str(self.input[0]) + " & " + str(self.input[1]) + " -> " + str(self.output))
             elif (self.keyword == "OR"):
                 self.output = self.input[0] | self.input[1]
@@ -91,7 +92,7 @@ class Gate:
 
                 
    # case function do it and or etc. 
-    
+    #16076
 gatesString = """lf AND lq -> ls
 iu RSHIFT 1 -> jn
 bo OR bu -> bv
@@ -146,7 +147,7 @@ NOT ft -> fu
 jn OR jo -> jp
 iv OR jb -> jc
 hv OR hu -> hw
-16076 -> b
+19138 -> b
 gj RSHIFT 5 -> gm
 hq AND hs -> ht
 dy RSHIFT 1 -> er

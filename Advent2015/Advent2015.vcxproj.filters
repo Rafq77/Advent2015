@@ -41,6 +41,8 @@
     </Text>
     <Text Include="Resources\Day_07.txt" />
     <Text Include="Resources\Day_08.txt" />
+    <Text Include="Resources\Day_12.txt" />
+    <Text Include="Resources\Day_13.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Day\Day.h">
@@ -128,6 +130,25 @@
     <None Include="Day\Day08\d8.py" />
     <None Include="Day\Day10\d10.py" />
     <None Include="Day\Day11\d11.py" />
+    <None Include="Day\Day08\d8 (3).py" />
+    <None Include="Day\Day25\d25.py" />
+    <None Include="Day\Day12\d12.py" />
+    <None Include="Day\Day13\d13.py" />
+    <None Include="Day\Day13\D13.xlsx" />
+    <None Include="Day\Day14\d14.py" />
+    <None Include="Day\Day15\d15.py" />
+    <None Include="Day\Day16\d16.py" />
+    <None Include="Day\Day17\d17.py" />
+    <None Include="Day\Day18\d18.py" />
+    <None Include="Day\Day19\d19 (0).py" />
+    <None Include="Day\Day19\d19.py" />
+    <None Include="Day\Day20\d20.py" />
+    <None Include="Day\Day21\d21.py" />
+    <None Include="Day\Day22\d22.py" />
+    <None Include="Day\Day23\d23.py" />
+    <None Include="Day\Day24\d24.py" />
+    <None Include="Day\Day09\d9.py" />
+    <None Include="Day\Day10\d10(2).py" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Day\Day08\d8.bmp" />
