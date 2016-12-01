@@ -4,7 +4,6 @@
 #include "stdafx.h"
 #include <iostream>
 #include "Day\Day_01.h"
-//#include "Day_01.h"
 
 int main()
 {

@@ -12,7 +12,7 @@ void Day_01::Day_01::ReadFile(std::string fileName) {
 	std::ifstream input;
 	std::string word;
 
-	input.open("Resources/Day_01.txt", std::ifstream::in);
+	input.open(fileName, std::ifstream::in);
 	if (false == input.is_open()) {
 		std::cout << "Can't open file: " << fileName << std::endl;
 		return;
