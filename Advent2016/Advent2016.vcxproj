@@ -152,7 +152,6 @@
     <ClInclude Include="Day\Day_01.h" />
     <ClInclude Include="Day\Day_02.h" />
     <ClInclude Include="Day\Day_03.h" />
-    <ClInclude Include="Resources\Day.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>

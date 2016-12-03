@@ -36,9 +36,6 @@
     <ClInclude Include="Day\Day_02.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Resources\Day.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Day\Day.h">
       <Filter>Header Files</Filter>
     </ClInclude>
