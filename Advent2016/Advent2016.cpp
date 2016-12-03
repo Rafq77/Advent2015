@@ -4,7 +4,6 @@
 #include "stdafx.h"
 #include <iostream>
 #include "Day\Day_01.h"
-#include "Day\Day_02.h"
 #include "Day\Day_03.h"
 
 int main()
@@ -13,10 +12,6 @@ int main()
 	day1.ReadFile("Resources/Day_01.txt");
 	day1.MoveToPosition();
 	day1.WhereAmI();
-
-	Day_02::Day_02 day2;
-	day2.ReadFile("Resources/Day_02.txt");
-	day2.Evaluate();
 
 	Day_03::Day_03 day3;
 	day3.ReadFile("Resources/Day_03.txt");

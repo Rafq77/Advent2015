@@ -23,6 +23,7 @@ namespace Day_03 {
 	private:
 
 		int triangleCount;
+		std::string input;
 		std::vector<Triangle*> triangles;
 		std::vector<int> integers;
 
