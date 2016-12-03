@@ -17,6 +17,7 @@
   <ItemGroup>
     <Text Include="ReadMe.txt" />
     <Text Include="Resources\Day_01.txt" />
+    <Text Include="Resources\Day_03.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -28,7 +29,7 @@
     <ClInclude Include="Day\Day_01.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Advent2016.h">
+    <ClInclude Include="Day\Day_03.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -40,6 +41,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Day\Day_01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day\Day_03.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

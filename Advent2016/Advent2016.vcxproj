@@ -144,16 +144,18 @@
   <ItemGroup>
     <Text Include="ReadMe.txt" />
     <Text Include="Resources\Day_01.txt" />
+    <Text Include="Resources\Day_03.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Advent2016.h" />
     <ClInclude Include="Day\Day_01.h" />
+    <ClInclude Include="Day\Day_03.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Advent2016.cpp" />
     <ClCompile Include="Day\Day_01.cpp" />
+    <ClCompile Include="Day\Day_03.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
