@@ -60,9 +60,7 @@ namespace Day_01 {
 	private:
 
 		Position position;
-		std::string input;
 		std::vector<Instruction> instructions;
-		//std::vector<std::string> presentsRaw;
 
 	public:
 		void MoveToPosition();

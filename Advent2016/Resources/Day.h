@@ -6,33 +6,22 @@
 #include <iostream>
 #include <sstream>
 
-namespace Day_03 {
+namespace Day_02 {
 
-	class Triangle {
-	public:
-		Triangle(int _a, int _b, int _c);
-		bool isTriangle();
-
-	private:
-		int a;
-		int b;
-		int c;
-	};
-
-	class Day_03  {
+	class Day_02  {
 	private:
 
 		int triangleCount;
-		std::vector<Triangle*> triangles;
-		std::vector<int> integers;
+		std::string input;
+		std::vector<std::string> keys;
 
 	public:
 		void ReadFile(std::string fileName);
 		void Evaluate();
 		void PrepareTask2();
 		void Print();
-		Day_03();
-		~Day_03();
+		Day_02();
+		~Day_02();
 
 	};
 }

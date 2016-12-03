@@ -30,7 +30,7 @@ void Day_03::Day_03::ReadFile(std::string fileName) {
 		// read
 		input >> one >> two >> three;
 
-		//conver
+		//convert
 		a = atoi(one.c_str());
 		b = atoi(two.c_str());
 		c = atoi(three.c_str());
