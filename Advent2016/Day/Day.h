@@ -11,7 +11,7 @@ namespace Day {
 	class Day  {
 	protected:
 		std::string input;
-		std::vector<std::string> keys;
+		std::vector<std::string> words;
 
 	public:
 		void ReadFile(std::string fileName) {
@@ -26,7 +26,7 @@ namespace Day {
 
 			while (true != input.eof()) {
 				input >> word;
-				keys.push_back(word);
+				words.push_back(word);
 			}
 			input.close();
 		}
