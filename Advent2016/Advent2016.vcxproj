@@ -168,6 +168,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Day\Day_02.py" />
     <None Include="Day\Day_04.py" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

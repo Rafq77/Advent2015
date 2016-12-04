@@ -59,5 +59,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Day\Day_04.py" />
+    <None Include="Day\Day_02.py" />
   </ItemGroup>
 </Project>
