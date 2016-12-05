@@ -43,6 +43,12 @@
     <ClInclude Include="Day\Day_04.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Day\Day_05.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -61,6 +67,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Day\Day_04.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day\Day_05.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\md5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
