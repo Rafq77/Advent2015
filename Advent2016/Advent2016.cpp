@@ -6,6 +6,8 @@
 #include "Day\Day_01.h"
 #include "Day\Day_02.h"
 #include "Day\Day_03.h"
+#include "Day\Day_04.h"
+#include "Day\Day_05.h"
 
 int main()
 {
@@ -23,7 +25,14 @@ int main()
 	day3.Evaluate();
 	day3.PrepareTask2();
 	day3.Evaluate();
+
+	Day_04::Day_04 day4;
+	day4.ReadFile("Resources/Day_04.txt");
+	day4.Evaluate();
 	
+	Day_05::Day_05 day5;
+	day5.Evaluate();
+
     return 0;
 }
 
