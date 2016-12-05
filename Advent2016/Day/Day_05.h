@@ -14,6 +14,8 @@ namespace Day_05 {
 	class Day_05 {
 	private:
 		static const char* input; 
+		std::string task1;
+		std::string task2;
 
 	public:
 		void Evaluate();
