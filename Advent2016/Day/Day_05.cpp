@@ -53,6 +53,23 @@ void Day_05::Day_05::Evaluate() {
 				}
 		}
 
+#pragma omp single
+		if (i % 1000 == 0 ) {
+			char display[9], chr;
+			display[8] = '\0';
+
+			for (size_t i = 0; i < 8; ++i) {
+				if (out[i] != '-') {
+					chr = out[i];
+					display[i] = chr + ((chr <= 9) ? 48 : 87); // 97-10 because A is 10;
+				} else {
+					chr = digest[i] & 0x0F;
+					display[i] = chr + ((chr <= 9) ? 48 : 87);
+				}
+			}
+			std::cout << "\r" << display;
+		}
+
 		if (idx >= 8) {
 			if (out.find('-') == std::string::npos) {
 				done = true;
@@ -60,6 +77,8 @@ void Day_05::Day_05::Evaluate() {
 			}
 		}
 	}
+
+	std::cout << std::endl;  // after animated stuff
 
 	Print();
 }
