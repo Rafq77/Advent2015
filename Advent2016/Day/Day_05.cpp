@@ -14,8 +14,8 @@ Day_05::Day_05::~Day_05() {
 
 void Day_05::Day_05::Evaluate() {
 	unsigned char digest[16];
-	task1 = "";
-	task2 = "";
+	t1 << std::hex;
+	t2 << std::hex;
 	MD5_CTX hash;
 
 	unsigned long int i = 0;
@@ -25,8 +25,6 @@ void Day_05::Day_05::Evaluate() {
 	std::string tmp;
 	std::string out("--------");
 	tmp.reserve(16);
-
-	std::cout << std::endl;
 
 #pragma omp parallel num_threads(8) private(tmp, hash, digest, tabIdx)
 	while (done == false) {
@@ -40,17 +38,18 @@ void Day_05::Day_05::Evaluate() {
 			&& (digest[2] & 0xF0) == 0x00) {
 
 				if (idx < 8) {
-					std::cout << std::hex << (digest[2] & 0x0F);
-					task1 += (digest[2] & 0x0F);
+					//std::cout << std::hex << (digest[2] & 0x0F);
+					t1 << (digest[2] & 0x0F);
 				}
 
 #pragma omp atomic
 				++idx;
 
 				tabIdx = ((digest[2] & 0x0F));
-				std::cout << i << "\t" << tabIdx << "\t" << out << std::endl;
+				//std::cout << i << "\t" << tabIdx << "\t" << out << std::endl;
 				if (tabIdx < 8 && tabIdx >= 0 && out[tabIdx] == '-') {
-					out[tabIdx] = digest[3] & 0xF0;
+					out[tabIdx] = (digest[3] & 0xF0) >> 4;
+					t2 << (unsigned int)((digest[3] & 0xF0) >> 4);
 				}
 		}
 
@@ -61,12 +60,11 @@ void Day_05::Day_05::Evaluate() {
 			}
 		}
 	}
-	task2 = out;
 
 	Print();
 }
 
 
 void Day_05::Day_05::Print() {
-	std::cout << "Day 05  task1: " << std::hex << task1 << " task2: " << std::hex << task2 << std::endl;
+	std::cout << "Day 05  task1: " << t1.str() << " task2: " << t2.str() << std::endl;
 }
