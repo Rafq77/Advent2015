@@ -179,6 +179,7 @@
     <None Include="Day\Day_02.py" />
     <None Include="Day\Day_04.py" />
     <None Include="Day\Day_05.ps1" />
+    <None Include="Day\Day_06.py" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
