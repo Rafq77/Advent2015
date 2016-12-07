@@ -1,4 +1,6 @@
-﻿mol = "CRnCaSiRnBSiRnFArTiBPTiTiBFArPBCaSiThSiRnTiBPBPMgArCaSiRnTiMgArCaSiThCaSiRnFArRnSiRnFArTiTiBFArCaCaSiRnSiThCaCaSiRnMgArFYSiRnFYCaFArSiThCaSiThPBPTiMgArCaPRnSiAlArPBCaCaSiRnFYSiThCaRnFArArCaCaSiRnPBSiRnFArMgYCaCaCaCaSiThCaCaSiAlArCaCaSiRnPBSiAlArBCaCaCaCaSiThCaPBSiThPBPBCaSiRnFYFArSiThCaSiRnFArBCaCaSiRnFYFArSiThCaPBSiThCaSiRnPMgArRnFArPTiBCaPRnFArCaCaCaCaSiRnCaCaSiRnFYFArFArBCaSiThFArThSiThSiRnTiRnPMgArFArCaSiThCaPBCaSiRnBFArCaCaPRnCaCaPMgArSiRnFYFArCaSiThRnPBPMgAr"
+﻿fd = open("""../../Resources/Day_19.txt""", 'r')
+mol = fd.read()
+fd.close()
 
 dic = """Al => ThF
 Al => ThRnFAr
@@ -43,6 +45,14 @@ Ti => TiTi
 e => HF
 e => NAl
 e => OMg""".split('\n')
+
+# for evry elem in dictionary
+    # for evenry element in med string
+        #check if matches
+            # if yes - replace
+                # check if present in 'distinctive strings dictionary'
+                # if no
+                    # add
 
 output = set()
 output.add('HF')

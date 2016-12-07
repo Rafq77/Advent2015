@@ -43,6 +43,10 @@
     <Text Include="Resources\Day_08.txt" />
     <Text Include="Resources\Day_12.txt" />
     <Text Include="Resources\Day_13.txt" />
+    <Text Include="Resources\Day_16.txt" />
+    <Text Include="Resources\Day_18.txt" />
+    <Text Include="Resources\Day_09.txt" />
+    <Text Include="Resources\Day_19.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Day\Day.h">
@@ -124,13 +128,9 @@
     <ResourceCompile Include="Std\Advent2015.rc" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Day\Day07\d7 (2).py" />
     <None Include="Day\Day07\d7.py" />
-    <None Include="Day\Day08\d8 (2).py" />
-    <None Include="Day\Day08\d8.py" />
     <None Include="Day\Day10\d10.py" />
     <None Include="Day\Day11\d11.py" />
-    <None Include="Day\Day08\d8 (3).py" />
     <None Include="Day\Day25\d25.py" />
     <None Include="Day\Day12\d12.py" />
     <None Include="Day\Day13\d13.py" />
@@ -140,7 +140,6 @@
     <None Include="Day\Day16\d16.py" />
     <None Include="Day\Day17\d17.py" />
     <None Include="Day\Day18\d18.py" />
-    <None Include="Day\Day19\d19 (0).py" />
     <None Include="Day\Day19\d19.py" />
     <None Include="Day\Day20\d20.py" />
     <None Include="Day\Day21\d21.py" />
@@ -149,8 +148,9 @@
     <None Include="Day\Day24\d24.py" />
     <None Include="Day\Day09\d9.py" />
     <None Include="Day\Day10\d10(2).py" />
+    <None Include="Day\Day08\d8.py" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Day\Day08\d8.bmp" />
+    <Image Include="Day\Day09\d9.bmp" />
   </ItemGroup>
 </Project>
