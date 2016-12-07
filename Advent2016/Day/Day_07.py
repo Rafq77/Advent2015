@@ -1,4 +1,4 @@
-import os
+﻿import os
 import string
 import re
 
@@ -24,6 +24,7 @@ def Kek(kek, eke):
     
 fd = open("""../Resources/Day_07.txt""", 'r')
 s = fd.read()
+fd.close()
 words = s.split('\n')
 cnt = 0
 topKek = 0
