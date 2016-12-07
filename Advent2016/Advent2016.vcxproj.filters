@@ -21,6 +21,7 @@
     <Text Include="Resources\Day_02.txt" />
     <Text Include="Resources\Day_04.txt" />
     <Text Include="Resources\Day_06.txt" />
+    <Text Include="Resources\Day_07.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -88,5 +89,6 @@
     <None Include="Day\Day_02.py" />
     <None Include="Day\Day_05.ps1" />
     <None Include="Day\Day_06.py" />
+    <None Include="Day\Day_07.py" />
   </ItemGroup>
 </Project>
