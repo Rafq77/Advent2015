@@ -30,5 +30,15 @@ namespace Day {
 			}
 			input.close();
 		}
+
+		std::vector<std::string> SplitString(std::string& string) {
+
+			std::istringstream buf(string);
+			std::istream_iterator<std::string> beg(buf), end;
+			std::vector<std::string> tokens(beg, end); // done!;
+
+
+			return tokens;
+		};
 	};
 }

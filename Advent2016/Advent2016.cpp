@@ -10,6 +10,7 @@
 #include "Day\Day_05.h"
 #include "Day\Day_06.h"
 #include "Day\Day_07.h"
+#include "Day\Day_08.h"
 
 static const bool WITH_LONG_RUN = false;
 
@@ -44,10 +45,18 @@ int main()
 	day6.Evaluate(); 
 	day6.Print();
 
-	Day_07::Day_07 day7;
-	day7.ReadFile("Resources/Day_07.txt");
-	day7.Evaluate(); 
-	day7.Print();
+	if (WITH_LONG_RUN) {
+		// std::regex is slow
+		Day_07::Day_07 day7;
+		day7.ReadFile("Resources/Day_07.txt");
+		day7.Evaluate(); 
+		day7.Print();
+	}
+
+	Day_08::Day_08 day8;
+	day8.ReadFile("Resources/Day_08.txt");
+	day8.Evaluate(); 
+	day8.Print();
 
     return 0;
 }
