@@ -11,6 +11,7 @@
 #include "Day\Day_06.h"
 #include "Day\Day_07.h"
 #include "Day\Day_08.h"
+#include "Day\Day_10.h"
 
 static const bool WITH_LONG_RUN = false;
 
@@ -57,6 +58,11 @@ int main()
 	day8.ReadFile("Resources/Day_08.txt");
 	day8.Evaluate(); 
 	day8.Print();
+
+	Day_10::Day_10 day10;
+	day10.ReadFile("Resources/Day_10.txt");
+	day10.Evaluate(); 
+	day10.Print();
 
     return 0;
 }

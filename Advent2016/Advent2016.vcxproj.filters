@@ -24,6 +24,7 @@
     <Text Include="Resources\Day_07.txt" />
     <Text Include="Resources\Day_08.txt" />
     <Text Include="Resources\Day_09.txt" />
+    <Text Include="Resources\Day_10.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -62,6 +63,9 @@
     <ClInclude Include="Day\Day_08.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Day\Day_10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -95,6 +99,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Day\Day_08.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day\Day_10.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
