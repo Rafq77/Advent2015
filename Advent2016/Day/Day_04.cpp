@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "Day_04.h"
 
 	const char* Day_04::Day_04::key = "northpoleobjectstorage";

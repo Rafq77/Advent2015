@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "Day_05.h"
 
 	const char* Day_05::Day_05::input = "ugkcyxxp";

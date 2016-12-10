@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "Day_02.h"
 
 

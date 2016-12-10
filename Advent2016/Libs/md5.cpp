@@ -36,7 +36,6 @@
 */
 
 #ifndef HAVE_OPENSSL
-#include "stdafx.h"
 #include <string.h>
 
 #include "md5.h"
@@ -283,3 +282,4 @@ void MD5_Final(unsigned char *result, MD5_CTX *ctx) {
 
 		memset(ctx, 0, sizeof(*ctx));
 }
+#endif

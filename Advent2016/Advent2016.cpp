@@ -1,7 +1,6 @@
 // Advent2016.cpp : Defines the entry point for the console application.
 //
 
-#include "stdafx.h"
 #include <iostream>
 #include "Day\Day_01.h"
 #include "Day\Day_02.h"
@@ -12,6 +11,8 @@
 #include "Day\Day_07.h"
 #include "Day\Day_08.h"
 #include "Day\Day_10.h"
+
+#include <boost\lambda\lambda.hpp>
 
 static const bool WITH_LONG_RUN = false;
 
@@ -63,6 +64,12 @@ int main()
 	day10.ReadFile("Resources/Day_10.txt");
 	day10.Evaluate(); 
 	day10.Print();
+
+	using namespace boost::lambda;
+	typedef std::istream_iterator<int> in;
+
+	std::for_each(
+		in(std::cin), in(), std::cout << (_1 * 3) << " ");
 
     return 0;
 }
