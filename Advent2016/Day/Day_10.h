@@ -6,6 +6,8 @@
 #include <iostream>
 #include <sstream>
 #include <regex>
+#include <functional>
+#include "boost\iterator\filter_iterator.hpp"
 #include "Day.h"
 
 namespace Day_10 {

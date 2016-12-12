@@ -150,6 +150,7 @@ void Day_10::Day_10::Evaluate() {
 	}
 
 	// Propagation of "chips"
+	/*
 	while (std::any_of(bots.begin(), bots.end(), [this](auto && bot) { return bot.IsReady() == true; })) {
 
 		for (auto & bot : bots) {
@@ -168,6 +169,31 @@ void Day_10::Day_10::Evaluate() {
 				}
 				bot.Done();
 			}
+		}
+	}
+*/
+
+	auto isReady = [this](auto && bot) { return bot.IsReady() == true; };
+	auto end = boost::make_filter_iterator(isReady, bots.end(), bots.end());
+
+	bool allDone = false;
+	while (false == allDone) {
+		allDone = true;
+		auto readyBotIt = boost::make_filter_iterator(isReady, bots.begin(), bots.end());
+
+		for (readyBotIt; readyBotIt != end; readyBotIt++) {
+			allDone = false;
+
+			auto low = std::find_if(bots.begin(), bots.end(), [readyBotIt](auto& searchedBot) { return searchedBot.id == readyBotIt->lowRecipent; });
+			if (low != bots.end()) {
+				(*low).GiveValue(readyBotIt->low);
+			}
+
+			auto high = std::find_if(bots.begin(), bots.end(), [readyBotIt](auto& searchedBot) { return searchedBot.id == readyBotIt->highRecipent; });
+			if (high != bots.end()) {
+				(*high).GiveValue(readyBotIt->high);
+			}
+			readyBotIt->Done();
 		}
 	}
 }
