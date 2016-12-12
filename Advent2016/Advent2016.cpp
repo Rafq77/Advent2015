@@ -11,6 +11,7 @@
 #include "Day\Day_07.h"
 #include "Day\Day_08.h"
 #include "Day\Day_10.h"
+#include "Day\Day_12.h"
 
 #include <boost\lambda\lambda.hpp>
 
@@ -64,6 +65,10 @@ int main()
 	day10.ReadFile("Resources/Day_10.txt");
 	day10.Evaluate(); 
 	day10.Print();
+
+	Day_12::Day_12 day12;
+	day12.Evaluate(); 
+	day12.Print();
 
 	using namespace boost::lambda;
 	typedef std::istream_iterator<int> in;

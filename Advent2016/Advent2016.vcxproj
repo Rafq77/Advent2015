@@ -154,6 +154,7 @@
     <Text Include="Resources\Day_08.txt" />
     <Text Include="Resources\Day_09.txt" />
     <Text Include="Resources\Day_10.txt" />
+    <Text Include="Resources\Day_12.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Day\Day.h" />
@@ -166,6 +167,7 @@
     <ClInclude Include="Day\Day_07.h" />
     <ClInclude Include="Day\Day_08.h" />
     <ClInclude Include="Day\Day_10.h" />
+    <ClInclude Include="Day\Day_12.h" />
     <ClInclude Include="Libs\md5.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -180,6 +182,7 @@
     <ClCompile Include="Day\Day_07.cpp" />
     <ClCompile Include="Day\Day_08.cpp" />
     <ClCompile Include="Day\Day_10.cpp" />
+    <ClCompile Include="Day\Day_12.cpp" />
     <ClCompile Include="Libs\md5.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -190,6 +193,7 @@
     <None Include="Day\Day_07.py" />
     <None Include="Day\Day_08.py" />
     <None Include="Day\Day_09.py" />
+    <None Include="Day\Day_12.py" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

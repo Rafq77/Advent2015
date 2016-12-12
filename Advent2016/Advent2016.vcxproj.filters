@@ -25,6 +25,7 @@
     <Text Include="Resources\Day_08.txt" />
     <Text Include="Resources\Day_09.txt" />
     <Text Include="Resources\Day_10.txt" />
+    <Text Include="Resources\Day_12.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="targetver.h">
@@ -63,6 +64,9 @@
     <ClInclude Include="Day\Day_10.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Day\Day_12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Advent2016.cpp">
@@ -98,6 +102,9 @@
     <ClCompile Include="Day\Day_10.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day\Day_12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Day\Day_04.py" />
@@ -107,5 +114,6 @@
     <None Include="Day\Day_07.py" />
     <None Include="Day\Day_08.py" />
     <None Include="Day\Day_09.py" />
+    <None Include="Day\Day_12.py" />
   </ItemGroup>
 </Project>
