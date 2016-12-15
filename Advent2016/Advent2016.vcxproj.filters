@@ -26,6 +26,7 @@
     <Text Include="Resources\Day_09.txt" />
     <Text Include="Resources\Day_10.txt" />
     <Text Include="Resources\Day_12.txt" />
+    <Text Include="Resources\Day_15.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="targetver.h">
@@ -116,5 +117,7 @@
     <None Include="Day\Day_09.py" />
     <None Include="Day\Day_12.py" />
     <None Include="Day\Day_14.py" />
+    <None Include="Day\Day_15.py" />
+    <None Include="Day\Day_13.py" />
   </ItemGroup>
 </Project>
