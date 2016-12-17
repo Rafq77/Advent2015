@@ -119,5 +119,7 @@
     <None Include="Day\Day_14.py" />
     <None Include="Day\Day_15.py" />
     <None Include="Day\Day_13.py" />
+    <None Include="Day\Day_16.py" />
+    <None Include="Day\Day_17.py" />
   </ItemGroup>
 </Project>
