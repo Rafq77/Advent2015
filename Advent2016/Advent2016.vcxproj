@@ -156,6 +156,7 @@
     <Text Include="Resources\Day_10.txt" />
     <Text Include="Resources\Day_12.txt" />
     <Text Include="Resources\Day_15.txt" />
+    <Text Include="Resources\Day_18.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Day\Day.h" />
@@ -200,6 +201,7 @@
     <None Include="Day\Day_15.py" />
     <None Include="Day\Day_16.py" />
     <None Include="Day\Day_17.py" />
+    <None Include="Day\Day_18.py" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
