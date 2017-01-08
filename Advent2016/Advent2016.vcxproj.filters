@@ -28,6 +28,12 @@
     <Text Include="Resources\Day_12.txt" />
     <Text Include="Resources\Day_15.txt" />
     <Text Include="Resources\Day_18.txt" />
+    <Text Include="Resources\Day_20.txt" />
+    <Text Include="Resources\Day_21.txt" />
+    <Text Include="Resources\Day_22.txt" />
+    <Text Include="Resources\Day_23.txt" />
+    <Text Include="Resources\Day_24.txt" />
+    <Text Include="Resources\Day_25.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="targetver.h">
@@ -107,6 +113,9 @@
     <ClCompile Include="Day\Day_12.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day\Day_23.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Day\Day_04.py" />
@@ -123,5 +132,12 @@
     <None Include="Day\Day_16.py" />
     <None Include="Day\Day_17.py" />
     <None Include="Day\Day_18.py" />
+    <None Include="Day\Day_25.py" />
+    <None Include="Day\Day_20.py" />
+    <None Include="Day\Day_21.py" />
+    <None Include="Day\Day_22.py" />
+    <None Include="Day\Day_23.py" />
+    <None Include="Day\Day_24.py" />
+    <None Include="Day\Day_19.py" />
   </ItemGroup>
 </Project>

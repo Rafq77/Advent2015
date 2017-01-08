@@ -157,6 +157,12 @@
     <Text Include="Resources\Day_12.txt" />
     <Text Include="Resources\Day_15.txt" />
     <Text Include="Resources\Day_18.txt" />
+    <Text Include="Resources\Day_20.txt" />
+    <Text Include="Resources\Day_21.txt" />
+    <Text Include="Resources\Day_22.txt" />
+    <Text Include="Resources\Day_23.txt" />
+    <Text Include="Resources\Day_24.txt" />
+    <Text Include="Resources\Day_25.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Day\Day.h" />
@@ -185,6 +191,7 @@
     <ClCompile Include="Day\Day_08.cpp" />
     <ClCompile Include="Day\Day_10.cpp" />
     <ClCompile Include="Day\Day_12.cpp" />
+    <ClCompile Include="Day\Day_23.cpp" />
     <ClCompile Include="Libs\md5.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -202,6 +209,13 @@
     <None Include="Day\Day_16.py" />
     <None Include="Day\Day_17.py" />
     <None Include="Day\Day_18.py" />
+    <None Include="Day\Day_19.py" />
+    <None Include="Day\Day_20.py" />
+    <None Include="Day\Day_21.py" />
+    <None Include="Day\Day_22.py" />
+    <None Include="Day\Day_23.py" />
+    <None Include="Day\Day_24.py" />
+    <None Include="Day\Day_25.py" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
