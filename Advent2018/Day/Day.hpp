@@ -9,11 +9,10 @@
 #include <numeric>
 #include <vector>
 
-template <typename T>
 class Day
 {
-public:
 
+public:
 	// reads content of a file (provided in input)
 	// returns vector of strings, each vector value corresponds to a line or spearator such as comma or whitespace.
 	template <typename T>
@@ -24,5 +23,4 @@ public:
 
 		return data;
 	}
-
 };
