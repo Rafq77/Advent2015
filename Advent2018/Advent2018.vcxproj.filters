@@ -15,6 +15,7 @@
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Day\Day.hpp" />
     <ClInclude Include="Day\Day_01.hpp" />
+    <ClInclude Include="Day\Day_09.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp" />
