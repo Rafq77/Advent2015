@@ -1,4 +1,4 @@
-fd = open("""../Resources/Day_12.txt""", 'r')
+fd = open("""Resources/Day_12.txt""", 'r')
 s = fd.read()
 fd.close()
 S = s
@@ -30,7 +30,7 @@ instructions = s.split('\n')
 programSize = len(instructions)
 
 execute()
-
+print(a)
 
 a = 0
 b = 0
@@ -38,4 +38,4 @@ c = 1
 d = 0
 pc = 0
 execute()
-
+print(a)

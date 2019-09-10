@@ -1,0 +1,38 @@
+addi 2 16 2 // ip = ip + 16
+seti 1 0 1  // a = 1
+seti 1 4 3	// b = 1
+mulr 1 3 4  // c = a*b
+eqrr 4 5 4  // if c == d; c = 1;
+addr 4 2 2  // ip += c (+1)
+addi 2 1 2  // ip++ 
+addr 1 0 0  // z = z+a (z+=1)
+addi 3 1 3  // b ++
+gtrr 3 5 4  // if b > d; c = 1
+addr 2 4 2  // ip = ip + c (defacto 1)
+seti 2 5 2  // else jump to 5
+addi 1 1 1  // a ++
+gtrr 1 5 4  // if a > d; c = 1
+addr 4 2 2  // ip += c (jump over 1 instr?)
+seti 1 1 2	// ip = 1 ( go back to first line) 1:
+mulr 2 2 2	// ip = ip * ip
+addi 5 2 5	// d +=2
+mulr 5 5 5  // d = d*d
+mulr 2 5 5  // d = ip*d
+muli 5 11 5 // d = d*11
+addi 4 5 4  // c += 4
+mulr 4 2 4  // c = c*ip
+addi 4 9 4  // c += 9
+addr 5 4 5  // d += c
+addr 2 0 2  // ip += z
+seti 0 0 2  // ip = 0 : goto beginning// function call?
+setr 2 3 4  // c = ip
+mulr 4 2 4  // c = ip*c (c = ip^2)
+addr 2 4 4	// c+=ip
+mulr 2 4 4 	// c= c*ip
+muli 4 14 4	// c = c * 14
+mulr 4 2 4	// c = c*ip
+addr 5 4 5	// d+=c
+seti 0 6 0	// z = 0
+seti 0 3 2	// ip = 0 // ret to top
+
+#10551356

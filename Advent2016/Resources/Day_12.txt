@@ -8,16 +8,16 @@ inc d
 dec c
 jnz c -2
 cpy a c
-inc a
+inc a 
 dec b
 jnz b -2
 cpy c b
-dec d
+dec d 
 jnz d -6
 cpy 18 c
 cpy 11 d
 inc a
 dec d
 jnz d -2
-dec c
+dec c 
 jnz c -5

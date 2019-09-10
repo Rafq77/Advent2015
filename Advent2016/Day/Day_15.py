@@ -1,7 +1,7 @@
 import re
 from itertools import compress
 
-fd = open("""../Resources/Day_15.txt""", 'r')
+fd = open("""Resources/Day_15.txt""", 'r')
 s = fd.read()
 fd.close()
 s = s.split('\n')

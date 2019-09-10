@@ -1,6 +1,6 @@
-﻿import itertools
+import itertools
 import collections
-fd = open("""../Resources/Day_24.txt""",'r')
+fd = open("""Resources/Day_24.txt""", 'r')
 s = fd.read()
 fd.close()
 S = s

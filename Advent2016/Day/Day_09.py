@@ -27,8 +27,7 @@ def unwind(s):
     return tot;
 #############
 
-
-fd = open("""../Resources/Day_09.txt""", 'r')
+fd = open("""Resources/Day_09.txt""", 'r')
 s = fd.read()
 fd.close()
 S = s

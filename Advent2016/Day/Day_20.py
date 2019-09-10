@@ -1,6 +1,6 @@
-﻿Ips = 4294967295
+Ips = 4294967295
 
-fd = open("""../Resources/Day_20.txt""",'r')
+fd = open("""Resources/Day_20.txt""", 'r')
 s = fd.read()
 fd.close()
 s = s.split('\n')

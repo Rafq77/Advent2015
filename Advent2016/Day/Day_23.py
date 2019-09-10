@@ -1,4 +1,4 @@
-﻿fd = open("""../Resources/Day_23.txt""",'r')
+fd = open("""Resources/Day_23.txt""", 'r')
 s = fd.read()
 fd.close()
 S = s

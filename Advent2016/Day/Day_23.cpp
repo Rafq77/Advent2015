@@ -1,6 +1,6 @@
 #include <iostream>
 
-int Day_23() {
+int main() {
 	int32_t a = 0, b = 0, c = 0, d = 0;
 	bool jump = false;
 
@@ -24,5 +24,4 @@ lbl2:
 
 	a += 76 * 85;
 	std::cout << std::dec << "\nSecret Number in a:" << a << std::endl;
-	return 0;
 }
